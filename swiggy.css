@@ -1,0 +1,523 @@
+body{
+    margin: 0;
+}
+.main{
+    width: 1349px;
+    height: 1500px;
+    position: relative;
+    
+}
+.top-bar{
+    width: 1349px;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.swiggy-logo{
+    width: 60px;
+    height: 77px;
+    margin-left: 63px;
+    float: left;
+}
+.others{
+    font-weight: 700;
+    color: #3d4152;
+    float: left;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    padding-left: 32px;
+    padding-top: 35px;
+    float: left;
+
+}
+.others:hover{
+    color: #ff5200;
+
+}
+.arrow-c{
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 36px;
+}
+.top-bar-icons{
+    width: 756px;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    margin-left: 406px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.icons{
+    width: 45px;
+    height: 45px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    mix-blend-mode: multiply;
+   
+}
+.cooperate{
+    mix-blend-mode: multiply;
+    
+
+}
+.top-bar-text{
+    
+    color: #3d4152;
+    float: left;
+    font-family: arial,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    padding-left: 41px;
+    font-weight: 700;
+
+}
+.top-bar-text:hover{
+    color: #ff5200;
+}
+.search{
+    margin-left: 213px;
+    padding-top: 7px;
+} 
+.offer{
+    margin-left: 341px;
+    padding-top: 8px;
+}
+.help{
+    margin-left: 458px;
+    padding-top: 7px;
+}
+.sign-in{
+    margin-left: 573px;
+    padding-top: 7px;
+}
+.cart{
+    padding-top: 7px;
+    margin-left: 698px;
+}
+.wnew{
+    width: 994px;
+    height: 292px;
+    background: #ffffff;
+    margin-left: 181px;
+    margin-top: 80px;
+   
+}
+.whts{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+.sbox{
+    width: 994px;
+    height: 190px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.s-img{
+    width: 160px;
+}
+.trc{
+    width: 994px;
+    height: 371px;
+    background: rgb(255, 255, 255);
+    margin-left: 181px;
+    border-bottom: 2px black;
+    
+}
+.trc-text-box{
+    width: 100%;
+    height: 58px;
+    background: #ffffff;
+    
+}
+.trc-text{
+    font-family: "Basis Grotesque Pro", Arial, sans-serif !important;
+    font-weight: 800;
+    font-size: 24px;
+    color: rgba(2, 6, 12, 0.92);
+    padding-left: 5px;
+    padding-top: 5px;
+    letter-spacing: -2.2;
+
+}
+.hotel-img-box{
+    width: 100%;
+    height: 313px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.img-box{
+    width :300px;
+    height: 312px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: transform 0.5s ease-out, filter 0.5s ease-out;
+    
+}
+.img-box:hover{
+    transform: scale(.95);
+    filter: brightness(1.2); 
+}
+.img{
+    width: 300px;
+    height: 182px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 10%;
+    filter: hue-rotate(25%);
+}
+ .offer-text{
+    position: absolute;
+    top: 148px;
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: white;
+}
+.h-name{
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+
+}
+.rating{
+    width: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.rating-box{
+    float: left;
+}
+.ratentime{
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    padding-left: 32px;
+    padding-top: 5px;
+}
+.h-spot{
+    font-family:"Basis Grotesque Pro", Arial, sans-serif;
+    color: rgba(2, 6, 12, 0.6);
+    padding-left: 11px;
+    padding-top: 11px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.trc2{
+    width: 994px;
+    height:1000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 181px;
+}
+.trc2-wnew{
+    width: 994px;
+    height: 29px;
+    background: #ffffff;
+}
+.trc2-wnew-text{
+    font-family: "Basis Grotesque Pro", Arial, sans-serif !important;
+    font-weight: 800;
+    font-size: 24px;
+    color: rgba(2, 6, 12, 0.92);
+    padding-left: 15px;
+    padding-top: 5px;
+    letter-spacing: -2.2;
+}
+.sort-bar{
+    width: 994px;
+    height: 35px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:15px;
+    gap: 24px;
+}
+.sort-button{
+    width: auto;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    border-color: rgb(116, 116, 116);
+    border-style: solid ;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 15px;
+    padding: 2px;
+    border-width: .5px;
+
+   
+}
+.filter-icon{
+    padding-right: 5px;
+    width: 15px;
+    padding-top: 4px;
+
+   
+}
+.sort-text{
+    font-size: 14px;
+    padding: 3px;
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    float: left;
+    
+}
+.hotel-img-box2{
+    width: 995px;
+    height: 285px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    
+    
+}    
+.img-box2{
+width :228px;
+height: 250px;
+background-color: rgb(255, 255, 255);
+overflow: hidden;
+transition: transform 0.2s ease-out, filter 0.5s ease-out;
+padding-top: 35px;
+
+}
+.img-box2:hover{
+transform: scale(.95);
+filter: brightness(1.2); 
+}
+.img2{
+width: 250px;
+height: 137px;
+object-fit:cover;
+object-position: center;
+border-radius: 10%;
+filter: hue-rotate(25%);
+
+}
+.offer-text2{
+    position: absolute;
+    top: 140px;
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-left: 12px;
+    color: white;
+}
+.h-name{
+font-family: "Basis Grotesque Pro", Arial, sans-serif;
+padding-left: 10px;
+padding-top: 12px;
+font-weight: 700;
+font-size: 18px;
+letter-spacing: -0.3px;
+
+}
+.rating{
+width: 20px;
+padding-left: 5px;
+padding-top: 5px;
+}
+.rating-box{
+float: left;
+}
+.ratentime{
+font-family: "Basis Grotesque Pro", Arial, sans-serif;
+font-weight: 600;
+font-size: 17px;
+padding-left: 32px;
+padding-top: 5px;
+}
+.h-spot{
+font-family:"Basis Grotesque Pro", Arial, sans-serif;
+color: rgba(2, 6, 12, 0.6);
+padding-left: 11px;
+padding-top: 11px;
+font-size: 16px;
+font-weight: 200;
+}
+
+.hotel-img-box3{
+    width: 994px;
+  height: 285px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+.hotel-image-box4{
+    width: 994px;
+    height: 285px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    
+}
+.bestpl-box{
+    width: 1234px;
+    height: 300px;
+    background: rgb(255, 255, 255);
+  
+}
+.bestpl-text{
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    font-size:24px ;
+    font-weight: 800;
+    letter-spacing: -1.1px;
+    margin-left: 115px;
+    padding-top: 52px;
+}
+.bestpl-list-box{
+    height: auto;
+    width: 989px;
+    background: #ffffff;
+    margin-top: 12px;
+    margin-left: 113px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+   
+}
+.bestpl-list{
+    padding-top: 16px;
+    width: 202px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border-color: rgb(116, 116, 116);
+    border-style: solid;
+    border-radius: 15px 15px 15px 15px;
+    border-width: 1px;
+    font-size: 12px;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    color: #4b4b4b;
+
+}
+.install-box{
+    height: 120px;
+    background: rgb(235, 235, 235);
+    width: 1349px;
+    margin-top: 62px;
+}
+.install-text{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.6px;
+    margin-left: 121px;
+    padding-top: 26px;
+    color: rgba(2, 6, 12, 0.75);
+    float: left;
+}
+.app-icons{
+    width: 218px;
+    height: 68px;
+    padding-top: 29px;
+    padding-left: 42px;
+}
+.bottom-bar{
+    width: 1349px;
+    height: 483px;
+    background: #1f1f1f;
+}
+.company-box{
+    height: 300px;
+    width: 175px; 
+    background-color:  #1f1f1f;
+    ;
+    padding-top: 20px;
+    margin-left: 223px;
+    float: left;
+}
+.bw-icon{
+   
+    width: 28px;
+    padding-top: 10px;
+    float: left;
+}
+.swiggy-text{
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-left: 38px;
+    color: #ffffff;
+
+} 
+.location{
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    font-weight:800;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.3px;
+    color: rgba(255, 255, 255, 0.6);
+    float: left;
+}
+.company-box2{
+    height: 300px;
+    width: 175px; 
+    background-color:#1f1f1f ;
+    margin-left: 100px;
+    float: left;
+    padding-top: 40px;
+
+   
+}
+.company-box3{
+    height: 300px;
+    width: 175px; 
+    background-color: #1f1f1f;
+    margin-left: 100px;
+    float: left;
+    padding-top: 40px;
+}
+.company-box4{
+    height: 256px;
+    width: 175px; 
+    background-color: #1f1f1f;
+    margin-top:80px;
+    
+    
+}
+.company-text-main{
+    font-size: 19px;
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+}
+.company-text{
+        font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.3px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 7px;
+}
